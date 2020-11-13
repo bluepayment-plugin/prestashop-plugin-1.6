@@ -6,8 +6,6 @@ Repozytorium zawiera kod oficjalnego rozszerzenia Blue Media S.A. umożliwiając
 
 Ze względu na zakończenie wsparcia dla PrestaShop 1.6 rekomenduje się aktualizację platformy sprzedażowej do wersji 1.7 oraz instalację modułu płatności z PrestaShop Addons.
 
-Kod dla wtyczki w wersji 1.6 nie jest utrzymywany.
-
 ## Wymagania
 - PHP w wersji 5.6 lub nowszej.
 - PrestaShop w wersjach 1.4.5 do 1.6.
