@@ -151,6 +151,6 @@ Powiadomienia o zmianie statusu płatności wysyłane są w zależności od 
 2. Następnie postępuj zgodnie z instrukcją opisaną w sekcji **Instalacja wtyczki**. 
 
 ## Odinstalowanie
-Żeby odinstalować moduł – wybierz Odinstaluj, a następnie Usuń.
+Żeby odinstalować moduł – wybierz **Odinstaluj**, a następnie **Usuń**.
 
 ![Odinstaluj](https://user-images.githubusercontent.com/87177993/126955998-77429c08-61e5-4c46-83c9-e68e5a86eee6.png)
