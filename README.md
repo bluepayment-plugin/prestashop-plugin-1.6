@@ -88,8 +88,8 @@ Opis pól:
 1. Tryb testowy – zmiana trybu pracy bramki na testowy umożliwia weryfikację działania modułu bez konieczności rzeczywistego opłacania zamówienie (w trybie testowym nie pobierane są żadne opłaty za zamówienie).
 2. Pokazuj kanały płatności w sklepie – po wybraniu płatności za pomocą Blue Media prezentowane są możliwe kanały płatności (banki), dzięki czemu użytkownik może wybrać bank już na poziomie sklepu.
 3. Pokazuj logo kanałów płatności – przy nazwach banków wyświetlane są ich logotypy.
-4. Identyfikator serwisu partnera – składa się tylko z cyfr i jest inny dla każdego sklepu (uzyskasz go od Blue Media jest).				
-4. Klucz współdzielony – służy do weryfikacji komunikacji w bramką płatności. Zawiera cyfry i małe litery. Nie należy go udostępniać publicznie (uzyskasz go od Blue Media).
+4. Identyfikator serwisu partnera – składa się tylko z cyfr i jest inny dla każdego sklepu (uzyskasz go od Blue Media).				
+4. Klucz współdzielony – służy do weryfikacji komunikacji z bramką płatności. Zawiera cyfry i małe litery. Nie należy go udostępniać publicznie (uzyskasz go od Blue Media).
 5. Status oczekiwania na płatność – status zamówienia w sklepie – ustawiany natychmiast po rozpoczęciu płatności.		
 6. Status prawidłowej odpowiedzi – status zamówienia w sklepie – ustawiany po potwierdzeniu płatności.				
 7. Status nieprawidłowej płatności – status ustawiany w przypadku niepowodzenia płatności lub gdy płatności nie została zrealizowana przez dłuży czas (czas ten ustalamy dla każdego sklepu indywidualnie).			
