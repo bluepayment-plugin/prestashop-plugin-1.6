@@ -20,7 +20,7 @@ Do najważniejszych funkcji modułu zalicza się:
 
 ## Instalacja wtyczki
 
-1. Pobierz najnowszą wersję wtyczki klikając [tutaj](https://github.com/bluepayment-plugin/prestashop-plugin-1.6/archive/refs/heads/master.zip).
+1. Pobierz najnowszą wersję wtyczki klikając [tutaj](https://github.com/bluepayment-plugin/prestashop-plugin-1.6/releases/download/1.5.3/bluepayment.zip).
 2. Wejdź na http(s)://domena_sklepu.pl/nazwa_katalogu_administratora i zaloguj się do swojego konta administratora używając loginu i hasła.
 
 ![Logowanie](https://user-images.githubusercontent.com/87177993/126952274-32347bad-5c63-4aab-bd38-bf78c360c3a5.jpg)
