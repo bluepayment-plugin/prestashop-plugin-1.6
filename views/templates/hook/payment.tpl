@@ -21,7 +21,7 @@
         {if $selectPayWay}
             <div id="blue_payway" style="display:none;">
                 <h1 class="page-heading step-num">{l s='Select bank' mod='bluepayment'}</h1>
-                <p style="padding:0 10px 5px 10px;">Zlecenie płatnicze składane jest do Twojego banku za pośrednictwem Blue Media S.A. z siedzibą w Sopocie i zostanie zrealizowane zgodnie z warunkami określonymi przez Twój bank. Po wyborze banku dokonasz autoryzacji płatności.</p>
+                <p style="padding:0 10px 5px 10px;">Zlecenie płatnicze składane jest do Twojego banku za pośrednictwem Autopay S.A. z siedzibą w Sopocie i zostanie zrealizowane zgodnie z warunkami określonymi przez Twój bank. Po wyborze banku dokonasz autoryzacji płatności.</p>
                 <div class="row">
                     {foreach from=$gateways item=row}
                     <div class="col-xs-3" style="padding:5px;">

@@ -1,6 +1,6 @@
 <?php
 /**
- * BlueMedia_BluePayment extension
+ * Autopay_BluePayment extension
  *
  * NOTICE OF LICENSE
  *
@@ -9,8 +9,8 @@
  * It is also available through the world-wide-web at this URL:
  * https://www.gnu.org/licenses/gpl-3.0.html
  *
- * @category       BlueMedia
- * @package        BlueMedia_BluePayment
+ * @category       Autopay
+ * @package        Autopay_BluePayment
  * @copyright      Copyright (c) 2015-2016
  * @license        https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License
  */
@@ -21,8 +21,8 @@ if (!defined('_PS_VERSION_'))
 
 function upgrade_module_1_3_0($object)
 {
-    Configuration::updateValue('BLUEPAYMENT_PAYMENT_NAME', 'Zapłać przez system Blue Media');
-    Configuration::updateValue('BLUEPAYMENT_PAYMENT_NAME_EXTRA', 'Po złożeniu zamówienia zostaniesz przekierowany do bezpiecznego systemu płatności Blue Media.');
+    Configuration::updateValue('BLUEPAYMENT_PAYMENT_NAME', 'Zapłać przez system Autopay');
+    Configuration::updateValue('BLUEPAYMENT_PAYMENT_NAME_EXTRA', 'Po złożeniu zamówienia zostaniesz przekierowany do bezpiecznego systemu płatności Autopay.');
 	return Db::getInstance()->execute(
 			'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'blue_gateways` (
                         `gateway_id` int(11) NOT NULL AUTO_INCREMENT,

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * BlueMedia_BluePayment extension
+ * Autopay_BluePayment extension
  *
  * NOTICE OF LICENSE
  *
@@ -10,8 +10,8 @@
  * It is also available through the world-wide-web at this URL:
  * https://www.gnu.org/licenses/gpl-3.0.html
  *
- * @category       BlueMedia
- * @package        BlueMedia_BluePayment
+ * @category       Autopay
+ * @package        Autopay_BluePayment
  * @copyright      Copyright (c) 2015-2016
  * @license        https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License
  */
@@ -104,7 +104,7 @@ class BluePayment extends PaymentModule
 
         $this->tab                    = 'payments_gateways';
         $this->version                = BP_VERSION;
-        $this->author                 = 'Blue Media';
+        $this->author                 = 'Autopay';
         $this->need_instance          = 0;
         $this->ps_versions_compliancy = ['min' => '1.4.5', 'max' => '1.6'];
         $this->currencies             = true;
@@ -112,8 +112,8 @@ class BluePayment extends PaymentModule
 
         parent::__construct();
 
-        $this->displayName = $this->l('Online payment BM');
-        $this->description = $this->l('Plugin supports online payments implemented by payment gateway Blue Media company.');
+        $this->displayName = $this->l('Online payment Autopay');
+        $this->description = $this->l('Plugin supports online payments implemented by payment gateway Autopay company.');
 
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
     }
@@ -136,8 +136,8 @@ class BluePayment extends PaymentModule
             Configuration::updateValue($this->name_upper.'_SHOW_PAYWAY', 0);
             Configuration::updateValue($this->name_upper.'_SHOW_PAYWAY_LOGO', 1);
             Configuration::updateValue($this->name_upper.'_SHOW_BANER', 0);
-            Configuration::updateValue($this->name_upper.'_PAYMENT_NAME', 'Zapłać przez system Blue Media');
-            Configuration::updateValue($this->name_upper.'_PAYMENT_NAME_EXTRA', 'Po złożeniu zamówienia zostaniesz przekierowany do bezpiecznego systemu płatności Blue Media.');
+            Configuration::updateValue($this->name_upper.'_PAYMENT_NAME', 'Zapłać przez system Autopay');
+            Configuration::updateValue($this->name_upper.'_PAYMENT_NAME_EXTRA', 'Po złożeniu zamówienia zostaniesz przekierowany do bezpiecznego systemu płatności Autopay.');
             $this->installTab();
             $this->installDb();
 

@@ -1,5 +1,5 @@
 {*
- * BlueMedia_BluePayment extension
+ * Autopay_BluePayment extension
  *
  * NOTICE OF LICENSE
  *
@@ -8,8 +8,8 @@
  * It is also available through the world-wide-web at this URL:
  * https://www.gnu.org/licenses/gpl-3.0.html
  *
- * @category       BlueMedia
- * @package        BlueMedia_BluePayment
+ * @category       Autopay
+ * @package        Autopay_BluePayment
  * @copyright      Copyright (c) 2015-2016
  * @license        https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License
  *}

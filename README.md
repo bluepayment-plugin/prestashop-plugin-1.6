@@ -1,4 +1,4 @@
-# Moduł Płatności BlueMedia dla platformy PrestaShop 1.6
+# Moduł Płatności Autopay dla platformy PrestaShop 1.6
 
 ## Podstawowe informacje
 BluePayment to moduł płatności umożliwiający realizację transakcji bezgotówkowych w sklepie opartym na platformie PrestaShop 1.6. 
@@ -20,7 +20,7 @@ Do najważniejszych funkcji modułu zalicza się:
 
 ## Instalacja wtyczki
 
-1. Pobierz najnowszą wersję wtyczki klikając [tutaj](https://github.com/bluepayment-plugin/prestashop-plugin-1.6/releases/download/1.5.3/bluepayment.zip).
+1. Pobierz najnowszą wersję wtyczki klikając [tutaj](https://github.com/bluepayment-plugin/prestashop-plugin-1.6/archive/refs/heads/master.zip).
 2. Wejdź na http(s)://domena_sklepu.pl/nazwa_katalogu_administratora i zaloguj się do swojego konta administratora używając loginu i hasła.
 
 ![Logowanie](https://user-images.githubusercontent.com/87177993/126952274-32347bad-5c63-4aab-bd38-bf78c360c3a5.jpg)
@@ -39,11 +39,11 @@ Po wgraniu modułu – należy go zainstalować. Możesz to zrobić na dwa sposo
 - odszukując go za pomocą wyszukiwarki;
 - wybierając kategorię: **Płatności, bramki i operatorzy** i klikając **Instaluj**.
 
-![Instaluj](https://user-images.githubusercontent.com/87177993/126952951-de3394ee-9ee9-45c8-8709-564ca98a6298.png)
+![Instaluj](https://raw.githubusercontent.com/bluepayment-plugin/prestashop-plugin-1.6/master/docs/img/install.png)
 
 Na kolejnym ekranie, który ci się pokaże, musisz potwierdzić chęć instalacji modułu. Wystarczy, że klikniesz: **Kontynuuj instalację**. Gdy instalacje się zakończy, system przeniesie cię automatycznie do Konfiguracji modułu.
 
-![Kontynuuj instalację](https://user-images.githubusercontent.com/87177993/126953651-298d49fa-848e-45be-b9c6-491720965eb3.jpg)
+![Kontynuuj instalację](https://raw.githubusercontent.com/bluepayment-plugin/prestashop-plugin-1.6/master/docs/img/install2.png)
 
 ## Konfiguracja
 
@@ -82,19 +82,19 @@ http(s)://domena_sklepu.pl/nazwa_katalogu_administratora
 - http(s)://domena_sklepu.pl/module/bluepayment/back
 - http(s)://domena_sklepu.pl/module/bluepayment/status
 
-![Ustawienia](https://user-images.githubusercontent.com/87177993/126954588-666744d3-4b75-459a-a362-49a803fcdc5e.png)
+![Ustawienia](https://raw.githubusercontent.com/bluepayment-plugin/prestashop-plugin-1.6/master/docs/img/configuration.png)
 
 Opis pól:
 1. Tryb testowy – zmiana trybu pracy bramki na testowy umożliwia weryfikację działania modułu bez konieczności rzeczywistego opłacania zamówienie (w trybie testowym nie pobierane są żadne opłaty za zamówienie).
-2. Pokazuj kanały płatności w sklepie – po wybraniu płatności za pomocą Blue Media prezentowane są możliwe kanały płatności (banki), dzięki czemu użytkownik może wybrać bank już na poziomie sklepu.
+2. Pokazuj kanały płatności w sklepie – po wybraniu płatności za pomocą Autopay prezentowane są możliwe kanały płatności (banki), dzięki czemu użytkownik może wybrać bank już na poziomie sklepu.
 3. Pokazuj logo kanałów płatności – przy nazwach banków wyświetlane są ich logotypy.
-4. Identyfikator serwisu partnera – składa się tylko z cyfr i jest inny dla każdego sklepu (uzyskasz go od Blue Media).				
-4. Klucz współdzielony – służy do weryfikacji komunikacji z bramką płatności. Zawiera cyfry i małe litery. Nie należy go udostępniać publicznie (uzyskasz go od Blue Media).
+4. Identyfikator serwisu partnera – składa się tylko z cyfr i jest inny dla każdego sklepu (uzyskasz go od Autopay).				
+4. Klucz współdzielony – służy do weryfikacji komunikacji z bramką płatności. Zawiera cyfry i małe litery. Nie należy go udostępniać publicznie (uzyskasz go od Autopay).
 5. Status oczekiwania na płatność – status zamówienia w sklepie – ustawiany natychmiast po rozpoczęciu płatności.		
 6. Status prawidłowej odpowiedzi – status zamówienia w sklepie – ustawiany po potwierdzeniu płatności.				
 7. Status nieprawidłowej płatności – status ustawiany w przypadku niepowodzenia płatności lub gdy płatności nie została zrealizowana przez dłuży czas (czas ten ustalamy dla każdego sklepu indywidualnie).			
-8. Nazwa metody płatności – umożliwia zmianę nazwy metody płatności, prosimy o pozostawienie w tym miejscu słów „Blue Media”.		
-9. Dodatkowy opis przy nazwie metody płatności – wyświetlany przy nazwie płatności na stronach koszyka, pole możesz wykorzystać do wyjaśnienie zasady działania płatności z wykorzystaniem modułu Blue Media.
+8. Nazwa metody płatności – umożliwia zmianę nazwy metody płatności, prosimy o pozostawienie w tym miejscu słów „Autopay”.		
+9. Dodatkowy opis przy nazwie metody płatności – wyświetlany przy nazwie płatności na stronach koszyka, pole możesz wykorzystać do wyjaśnienie zasady działania płatności z wykorzystaniem modułu Autopay.
 
 Po uzupełnieniu wszystkich pól – kliknij **Zapisz**.
 
@@ -112,7 +112,7 @@ Moduł Ship to Pay umożliwia przypisanie metody płatności do sposobu dostawy.
 
 1. Zaloguj się za pomocą konta administratora na adres:
 http(s)://domena_sklepu.pl/nazwa_katalogu_administratora 
-2. Przejdź do zakładki **Administracja ➝ Blue Media Zarządzanie kanałami płatności**
+2. Przejdź do zakładki **Administracja ➝ Autopay Zarządzanie kanałami płatności**
 3. Żeby pobrać kanały płatności, kliknij **Aktualizuj kanały płatności** – po pobraniu powinna się pojawić lista kanałów płatności dla wybranego trybu pracy (testowy/produkcyjny). 
 
 Jeżeli podczas pobierania pojawi się błąd – najprawdopodobniej podczas konfiguracji modułu zostały podane nieprawidłowe dane (Klucz współdzielony lub Identyfikator serwisu partnera)
