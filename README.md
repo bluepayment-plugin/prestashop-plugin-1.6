@@ -1,7 +1,7 @@
 # Moduł Płatności Autopay dla platformy PrestaShop 1.6
 
 ## Podstawowe informacje
-BluePayment to moduł płatności umożliwiający realizację transakcji bezgotówkowych w sklepie opartym na platformie PrestaShop 1.6. 
+Autopay to moduł płatności umożliwiający realizację transakcji bezgotówkowych w sklepie opartym na platformie PrestaShop 1.6. 
 
 **UWAGA!** Ze względu na zakończenie wsparcia dla PrestaShop 1.6 rekomendujemy aktualizację platformy sprzedażowej do wersji 1.7 oraz instalację modułu płatności z PrestaShop Addons. Wtyczkę PrestaShop 1.7 możesz pobrać [tutaj.](https://github.com/bluepayment-plugin/prestashop-plugin-1.7/archive/refs/heads/master.zip)
 

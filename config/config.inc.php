@@ -1,3 +1,3 @@
 <?php
-define('BP_VERSION','1.5.4');
+define('BP_VERSION','3.0.0');
 define('HASH_SEPARATOR','|');
