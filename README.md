@@ -1,4 +1,4 @@
-# Moduł Płatności Autopay dla platformy PrestaShop 1.6
+# Instrukcja dla modułu PrestaShop 1.6: "Płatności online Autopay"
 
 ## Podstawowe informacje
 Autopay to moduł płatności umożliwiający realizację transakcji bezgotówkowych w sklepie opartym na platformie PrestaShop 1.6. 
